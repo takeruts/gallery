@@ -1,0 +1,132 @@
+html {}
+
+body {
+    width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #003737;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+a {
+    color: #0083e8;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+nav ul li {
+    float: right;
+    width: 60px;
+    color: #003737;
+    font-weight: 700;
+    list-style: none;
+    list-style: none;
+}
+
+.shop_logo {
+    text-align: center;
+}
+
+.honeycomb {
+    position: relative;
+    margin-top: 36px;
+    top: 0px;
+    left: 0px;
+}
+
+.honeycomb ul li {
+    float: left;
+    width: 150px;
+    height: 130px;
+    list-style: none;
+}
+
+.hcu {
+    background-image: url("../img/honeycomb.png");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 130px;
+}
+
+.hcuImg {
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-left: 37px;
+    margin-top: 27px;
+}
+
+.hcuImg:focus {
+    outline: none;
+}
+
+.hch:before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/honeycomb_solid.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 150px;
+    height: 130px;
+}
+
+.hch p {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    margin-left: 35px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hcbee {
+    background-image: url("../img/bee.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* item.php */
+
+.iteminfo {
+    color: #003737;
+}
+
+.price {
+    font-size: 36px;
+    color: darkred;
+}
+
+.iteminfo h1 {
+    font-size: 48px;
+}
+
+.iteminfo h2 {
+    font-size: 24px;
+}
+
+.iteminfo p {
+    font-size: 18px;
+}
+
+
+/* Footer */
+
+footer {
+    position: relative;
+    clear: left;
+    padding-top: 36px;
+}
+
+footer h1 {
+    text-align: center;
+}
