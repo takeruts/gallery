@@ -36,7 +36,8 @@ $(window).load(function () {
         $(this).css({
             "margin-left": marginLeft,
             "margin-top": marginTop,
-            "margin-bottom": "10px",
+            "margin-bottom": "10px"
         });
     });
+
 });

@@ -24,6 +24,7 @@
             <img src="img/shop_logo.png" alt="Shop Logo">
         </div>
     </header>
+    <hr class="dots">
 
     <section class="honeycomb">
         <ul>
@@ -82,8 +83,9 @@
         </ul>
     </section>
 
+    <hr class="dots">
     <footer>
-        <h1>FOOTER</h1>
+        <p>copyright Gossip Gallery Inc.</p>
     </footer>
 </body>
 
