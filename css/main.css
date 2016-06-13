@@ -9,7 +9,8 @@ body {
 }
 
 a {
-    color: #0083e8;
+    color: #003737;
+    text-decoration: none;
 }
 
 b,
@@ -38,6 +39,7 @@ nav ul li {
     margin-top: 36px;
     top: 0px;
     left: 0px;
+    height: 600px;
 }
 
 .honeycomb ul li {
@@ -152,7 +154,7 @@ nav ul li {
     right: 0px;
     bottom: 0px;
     margin: 0 auto;
-    width: 300px;
+    width: 320px;
     text-shadow: -1px 1px 0px rgba(0, 0, 0, 1);
 }
 
@@ -217,6 +219,7 @@ nav ul li {
     color: white;
     width: 360px;
     margin-left: 100px;
+    text-indent: 2em;
 }
 
 .price {
@@ -228,6 +231,10 @@ nav ul li {
     background-image: url("../img/price.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.price p {
+    margin-top: 12px;
     font-size: 36px;
     color: white;
     text-align: center;
@@ -244,12 +251,17 @@ footer {
 }
 
 .dots {
-    border-width: 0 0 8px;
-    border-style: solid;
-    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1"><circle fill="hsla(0, 0%, 65%, 1.0)" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
-    width: 800px;
+    position: relative;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    padding: 0px;
 }
 
 footer p {
+    margin-top: 24px;
     text-align: center;
 }

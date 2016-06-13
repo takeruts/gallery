@@ -15,9 +15,9 @@
     <header>
         <nav>
             <ul>
-                <li>blog</li>
-                <li>about</li>
-                <li>guide</li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">guide</a></li>
             </ul>
         </nav>
         <div class="shop_logo">

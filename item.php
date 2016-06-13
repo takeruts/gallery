@@ -16,18 +16,17 @@
     <header>
         <nav>
             <ul>
-                <li>blog</li>
-                <li>about</li>
-                <li>guide</li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="index.php">home</a></li>
             </ul>
         </nav>
         <div class="shop_logo">
             <img src="img/shop_logo.png" alt="Shop Logo">
         </div>
     </header>
-    <hr class="dots">
-
-    <h1 id="anchor">商品紹介</h1>
+    <hr id="anchor" class="dots">
+    <h1>商品紹介</h1>
     <section class="iteminfo">
         <div class="picbg"></div>
         <?php echo '<img class="picture" src="'.$_POST['image_url'].'" alt="Picture"/>';?>
@@ -50,18 +49,20 @@
                     <br>&nbsp;&nbsp;カートに入れる</p>
             </div>
             <div class="price">
-                <?php 
+                <?php
+                $str = "";
                 $price = $_POST['price'];
                 if($price > 99999999) {
-                    echo floor($price/100000000).'億';
+                    $str = floor($price/100000000).'億';
                     $price %= 100000000;
                 }
                 if($price > 9999) {
-                    echo floor($price/10000).'万';
+                    $str .= floor($price/10000).'万';
                     $price %= 10000;
                 }
                 if($price == 0 ) {$price = '';}
-                echo $price.'円';
+                $str .= $price;
+                echo '<p>'.$str.'円</p>';
                 ?>
             </div>
             <div class="detail">

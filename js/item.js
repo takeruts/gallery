@@ -18,8 +18,8 @@ $(window).load(function () {
         })
     } else if ($(".category p").html().indexOf("絵画") != -1) {
         $(".itemname p").css({
-            "font-size": "24px",
-            "margin-top": "12px"
+            "font-size": "22px",
+            "margin-top": "8px"
         });
         $(".picture").css({
             "top": "120px",
